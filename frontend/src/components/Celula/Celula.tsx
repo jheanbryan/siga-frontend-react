@@ -6,20 +6,10 @@ type ClassType = {
 
 function Celula(props: ClassType) {
   const resolveJogada = () => {
-  let classe = 'celula';
+    console.log('clickou')
 
-  if (props.name == 'xis') {
-    classe += 'xis';
-
-  } else {
-    if (props.name == 'circulo') {
-      classe += 'circulo';
-
-    } else {
-
-    
-    }
-  }
+   console.log(props)
+ 
 
   };
 
