@@ -1,17 +1,17 @@
 import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
-import MainHome from '../../components/MainHome/MainHome';
+import LibraryContainer from '../../components/LibraryContainer/LibraryContainer';
 
-function Home() {
+function Library() {
   return(
-    <>
+    <> 
       <Header subtitle=''/>
 
-      <MainHome />
+      <LibraryContainer />
 
       <Footer />
     </>
   )
 };
 
-export default Home;
+export default Library;

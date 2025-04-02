@@ -1,5 +1,6 @@
 import './Nav.css';
 import perfilImage from '../../assets/profile-image.webp';
+import { Link } from 'react-router-dom';
 
 function Nav() {
 
@@ -11,11 +12,11 @@ function Nav() {
       </div>
       
       <ul>
-        <li><a href="home.php">Home</a></li>
-        <li><a href="biblioteca.php">Biblioteca</a></li>
-        <li><a href="disciplinas.php">Disciplinas</a></li>          
-        <li><a href="boletim.php">Boletim</a></li>
-        <li><a href="jogovelha.php">Jogar</a></li>
+        <li><Link to="/home">Home</Link></li>
+        <li><Link to="/biblioteca">Biblioteca</Link></li>
+        <li><Link to="/disciplinas">Disciplinas</Link></li>          
+        <li><Link to="/boletim">Boletim</Link></li>
+        <li><Link to="/jogar">Jogar</Link></li>
         </ul>
     </nav>
   );
