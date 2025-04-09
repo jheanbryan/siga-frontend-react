@@ -1,0 +1,29 @@
+
+.dicipline-page-body{
+  display: flex;
+  gap: 10px;
+  margin: 10px;
+}
+
+.dicipline-container{
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 1px solid #000;
+  padding: 10px;
+  margin: 0;
+}
+
+.table-dicipline,
+.table-dicipline tbody,
+.table-dicipline thead,
+.table-dicipline tr,
+.table-dicipline td,
+.table-dicipline th {
+  border: 1px solid #000;
+  padding: 1px;
+}
+
+.table-dicipline img {
+  max-width: 26px;
+}

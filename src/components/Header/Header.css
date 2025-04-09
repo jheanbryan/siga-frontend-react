@@ -1,0 +1,6 @@
+.container-header{
+  display: flex;
+  background-image: radial-gradient(#19882C,#025310); 
+  padding: 50px 20px;
+  color: #fff
+};

@@ -1,0 +1,16 @@
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-inline: auto;
+  height: 100%;
+  width: 100%;
+}
+
+.form .perfil{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
