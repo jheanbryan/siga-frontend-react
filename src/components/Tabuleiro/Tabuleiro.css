@@ -5,15 +5,13 @@ main {
   gap: 20px;
 }
 
-.div-players{
+.tabuleiro {
+  margin: 0 auto;
+  width: 320px;
   display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
   align-items: center;
-  gap: 15px;
-}
-.tic-tac-toe{
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 300px;
-
-  margin: auto;
 }

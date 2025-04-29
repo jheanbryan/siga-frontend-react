@@ -8,7 +8,7 @@ function Nav() {
     <nav>
       <div className="perfil">
           <img src={perfilImage} alt="foto Perfil" className='perfil-img'/><br/>
-          <a href="conta.php">conta</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="deslogar.php">sair</a>
+          <Link to="/conta">Conta</Link>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="deslogar.php">sair</a>
       </div>
       
       <ul>
@@ -16,7 +16,7 @@ function Nav() {
         <li><Link to="/biblioteca">Biblioteca</Link></li>
         <li><Link to="/disciplinas">Disciplinas</Link></li>          
         <li><Link to="/boletim">Boletim</Link></li>
-        <li><Link to="/jogar">Jogar</Link></li>
+        <li><Link to="/jogo-da-velha">Jogar</Link></li>
         </ul>
     </nav>
   );

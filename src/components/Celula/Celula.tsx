@@ -1,23 +1,23 @@
-import './Celula.css';
+import "./Celula.css";
 
-type ClassType = {
-  name: 'xis' | 'circulo' | '';
+function Celula(props: {nomeClasse: string | null; vezDoXis:boolean; onClick:() => void}){
+    let classe = 'celula'
+    if(props.nomeClasse == 'xis'){
+        classe += " xis";
+    }else{
+        if(props.nomeClasse == 'circulo'){
+            classe += " circulo";
+        }else{
+            if(props.vezDoXis == true){
+                classe = classe + " hoverDoXis"
+            }else{
+                 classe = classe + " hoverDoCirculo"
+            }
+        }
+    }
+    return(
+        <div className={classe} onClick={props.onClick}></div>
+    )
 }
 
-function Celula(props: ClassType) {
-  const resolveJogada = () => {
-    console.log('clickou')
-
-   console.log(props)
- 
-
-  };
-
-  return (
-    <>
-      <div className={`celula ${props.name}`} onClick={() => resolveJogada()}></div>
-    </>
-  );
-};
-
-export default Celula;
+export default Celula

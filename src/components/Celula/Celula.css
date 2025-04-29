@@ -1,35 +1,24 @@
-.celula{
-  margin: 4px 4px;
+.celula {
+  position: relative;
   background-color: green;
   width: 90px;
   height: 90px;
+  margin-right: 10px;
+  margin-top:10px;
 }
 
-input{
-  line-height: 18px;
-  border: 1px solid #000;
-  border-radius: 10px;
-  padding: 5px;
-}
-
-button{
-  background-color: green;
-  width: 150px;
-  font-size:30px;
-  border: black solid 1px;
-  border-radius: 10px;
-  color: white;
-  cursor: pointer;
-}
 
 .celula.xis::before,
 .celula.xis::after {
-  margin-top: 35px;
+  
   content: "";
   height: 15px;
   width: 90px;
   background: white;
   position: absolute;
+  top: 45%;
+  left:1%;
+ 
 }
 
 .celula.xis::before{
@@ -51,71 +40,19 @@ button{
   background: white;
   position: absolute;
   border-radius: 50%;
+  left:1%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-#fleex{
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: start;
-}
-
-.tabuleiro {
-  margin: 0 auto;
-  width: 320px;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-content: center;
-  justify-items: center;
-  align-items: center;
-}
-
-.oculto{
-  display: none;
-}
-
-
-
-.tabuleiro.circulo .celula:not(.xis):not(.circulo):hover::after{
+.celula.hoverDoCirculo:not(.xis):not(.circulo):hover::after{
   content: "O";
-  margin-top: 2px;
-  margin-left: 15px;
+  position: absolute;
+  left:10%;
   font-size:80px;
 }
-
-.tabuleiro.xis .celula:not(.xis):not(.circulo):hover::after{
+.celula.hoverDoXis:not(.xis):not(.circulo):hover::after{
   content: "X";
-  margin-top: 2px;
-  margin-left: 15px;
+  position: absolute;
+  left: 15px;
+  bottom: 0%;
   font-size:80px;
-}
-#save{
-  background-color: lightgreen;
-  width: 150px;
-  font-size:30px;
-  border: black solid 1px;
-  border-radius: 10px;
-  color: white;
-  font-weight: bolder;
-}
-
-
-#vencedor{
-  width: 250px;
-  margin: 0 auto;
-}
-.centro{
-  margin: 0 auto;
-  width: 100vw;
 }

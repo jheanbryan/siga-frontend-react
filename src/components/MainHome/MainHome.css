@@ -1,8 +1,8 @@
 .home-main-container {
   display: flex;
+  flex-direction: row;
   margin: 10px;
   gap: 10px;
-  
 }
 .home-text{
   padding: 10px;
@@ -21,6 +21,7 @@
   flex-direction: column;
   gap: 10px;
   width: 20%;
+  height: 100%;
 }
 
 .home-news h2 {
