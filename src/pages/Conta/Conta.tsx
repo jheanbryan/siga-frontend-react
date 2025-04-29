@@ -1,5 +1,4 @@
 import Nav from "../../components/Nav/Nav";
-import iconTrash from "../../assets/trash-icon.png";
 import Header from "../../components/Header/Header";
 import imageProfile from "../../assets/profile-image.webp";
 import Footer from "../../components/Footer/Footer";
