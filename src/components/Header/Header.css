@@ -1,14 +1,26 @@
-header{
+.container-header header {
   background-color: #0A5517; 
   margin: 0;    
   background-image: radial-gradient(#19882C,#025310); 
   color: white;    
   border-width: 1px;
-  border-style:solid;
+  border-style: solid;
   display: flex;
   justify-content: space-between;
+  padding: 20px 10px;
 }
-input, select{
+
+.container-header input,
+.container-header select {
   padding: 5px;
   border-radius: 10px;
+}
+
+.container-header button {
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: #1e8f2f;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
 }

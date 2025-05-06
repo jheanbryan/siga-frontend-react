@@ -1,123 +1,131 @@
-
-#irTopo{
+.cadastro-container #irTopo {
     width: 30px;
     height: 30px;
     position: fixed;
     right:10px;
     bottom:10px;
-}
-.perfil{
+  }
+  
+  .cadastro-container .perfil {
     text-align: center;
-}
-.perfil > img{
-    height:100px;
-    width:100px;
+  }
+  
+  .cadastro-container .perfil > img {
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
-}
-form > p::before{
+  }
+  
+  .cadastro-container form > p::before {
     content: "*";
-    color:red;
-}
-form > button{
+    color: red;
+  }
+  
+  .cadastro-container form > button {
     padding: 10px;
     border-radius: 10px;
     background-color: #1e8f2f;
     font-weight: 700;
     font-size: 1rem;
-    color:white;
+    color: white;
     font-family: 'Courier New', Courier, monospace;
-}
-button:hover{
+    margin-top: 5px;
+  }
+
+  .cadastro-container form > button > * {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  
+  .cadastro-container button:hover {
     cursor: pointer;
-}
-#login{
+  }
+  
+  .cadastro-container #login {
     align-self: flex-end;
     padding: 10px;
     font-size: 1.5rem;
-}
-
-h1{
+  }
+  
+  .cadastro-container h1 {
     padding: 5%; 
     margin: 0;
-}
-
-.content{
+  }
+  
+  .cadastro-container .content {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: stretch;
-}
-
-nav, main, section{
+  }
+  
+  .cadastro-container nav,
+  .cadastro-container main,
+  .cadastro-container section {
     border-color: black;
     border-width: 1px;
     border-style: solid;
     border-radius: 5px;
     margin: 5px;
     padding: 5px;
-}
-
-nav{
+  }
+  
+  .cadastro-container nav {
     flex: 10%;
     height: 60vh;
     display: flex;
-}
-
-main{
+  }
+  
+  .cadastro-container main {
     flex: 60%;
     align-items: initial;
     margin-left: 15px;
-}
-
-section{
+  }
+  
+  .cadastro-container section {
     flex: 20%;
-}
-
-li:hover{
+  }
+  
+  .cadastro-container li:hover {
     background-color: lightblue;
-}
-
-ul{
+  }
+  
+  .cadastro-container ul {
     list-style: none;
     padding: 0;
     height: 100%;
-    background-color: red;
     display: flex;
-    
-}
-
-li{
-   border-bottom-color:  black;
-   border-bottom-style: solid;
-   border-bottom-width: 1px;
-   width: 100%;
-   padding: 10px;
-   margin-top: 10px;
-}
-
-table{
-    border-width: 1px;
-    border-style: solid;
-    border-color: black;
-}
-
-tr,td,th{
-    border-width: 1px;
-    border-style: solid;
-    border-color: black;
-}
-
-.btn {
-    border:1px black solid;
+  }
+  
+  .cadastro-container li {
+    border-bottom: 1px solid black;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  .cadastro-container table,
+  .cadastro-container tr,
+  .cadastro-container td,
+  .cadastro-container th {
+    border: 1px solid black;
+  }
+  
+  .cadastro-container .btn {
+    border: 1px black solid;
     border-radius: 10px;
     background-color: grey;
     padding: 5px;
-}
+  }
+  
+  p{
+    margin-top: 10px;
+  }
 
-
-
-@media (max-width: 768px) {
-    .content{
+  @media (max-width: 768px) {
+    .cadastro-container .content {
       flex-direction: column;
     }
-}
+  }
+  
