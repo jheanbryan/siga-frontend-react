@@ -10,6 +10,7 @@ import Discipline from './pages/Disciplinas/Disciplinas.tsx';
 import Boletim from './pages/Boletim/Boletim.tsx';
 import Conta from './pages/Conta/Conta.tsx';
 import JogoDaVelha from './pages/JogoDaVelha/JogoDaVelha.tsx';
+import Cadastro from './pages/Cadastro/Cadastro.tsx';
 
 createRoot(document.getElementById('root')!).render(
   <BrowserRouter>
@@ -19,6 +20,7 @@ createRoot(document.getElementById('root')!).render(
       <Route path="/disciplinas" element={<Discipline />} />
       <Route path="/boletim" element={<Boletim />} />
       <Route path="/conta" element={<Conta />} />
+      <Route path="/cadastro" element={<Cadastro />} />
       <Route path="/jogo-da-velha" element={<JogoDaVelha />} />
       <Route path="*" element={<NotFound />} />
     </Routes>

@@ -1,6 +1,14 @@
-.container-header{
-  display: flex;
+header{
+  background-color: #0A5517; 
+  margin: 0;    
   background-image: radial-gradient(#19882C,#025310); 
-  padding: 50px 20px;
-  color: #fff
-};
+  color: white;    
+  border-width: 1px;
+  border-style:solid;
+  display: flex;
+  justify-content: space-between;
+}
+input, select{
+  padding: 5px;
+  border-radius: 10px;
+}
