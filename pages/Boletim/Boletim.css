@@ -1,0 +1,20 @@
+.boletim-page-body{
+  display: flex;
+  margin: 10px;
+  gap: 10px;
+}
+
+.table-boletim,
+.table-boletim table,
+.table-boletim tbody,
+.table-boletim thead,
+.table-boletim tr,
+.table-boletim td,
+.table-boletim th {
+  border: 1px solid #000;
+  padding: 1px;
+}
+
+.table-boletim img {
+  max-width: 26px;
+}

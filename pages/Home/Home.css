@@ -1,0 +1,22 @@
+.home-text{
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.home-news{
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 20%;
+}
+
+.home-news h2 {
+  flex-wrap: nowrap;
+}
