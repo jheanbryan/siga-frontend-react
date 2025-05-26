@@ -1,4 +1,4 @@
-import './Nav.css';
+import './Nav.scss';
 import perfilImage from '../../assets/profile-image.webp';
 import { Link } from 'react-router-dom';
 

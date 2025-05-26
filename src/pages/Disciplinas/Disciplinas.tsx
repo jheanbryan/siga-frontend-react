@@ -1,5 +1,5 @@
 import Nav from '../../components/Nav/Nav';
-import './Disciplinas.css';
+import './Disciplinas.scss';
 import iconTrash from '../../assets/trash-icon.png';
 import Header from '../../components/Header/Header';
 

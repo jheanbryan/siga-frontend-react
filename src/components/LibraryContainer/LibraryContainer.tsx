@@ -1,5 +1,5 @@
 import Nav from '../Nav/Nav';
-import './LibraryContainer.css';
+import './LibraryContainer.scss';
 
 function LibraryContainer() {
   return (

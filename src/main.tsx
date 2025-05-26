@@ -2,7 +2,8 @@ import { createRoot } from 'react-dom/client'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 
-import './globals.css';
+import './styles/globals.scss';
+import './styles/main.scss';
 import Home from './pages/Home/Home.tsx'
 import NotFound from './pages/NotFound/NotFound.tsx';
 import Library from './pages/Biblioteca/Biblioteca.tsx';
@@ -13,7 +14,7 @@ import JogoDaVelha from './pages/JogoDaVelha/JogoDaVelha.tsx';
 import Cadastro from './pages/Cadastro/Cadastro.tsx';
 
 createRoot(document.getElementById('root')!).render(
-  <BrowserRouter>
+  <BrowserRouter basename='/'>
     <Routes>
       <Route path="/home" element={<Home />} />
       <Route path="/biblioteca" element={<Library />} />

@@ -1,4 +1,4 @@
-import './Header.css';
+import './Header.scss';
 import { Link } from 'react-router-dom';
 
 function Header(props: any) {

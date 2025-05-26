@@ -1,4 +1,4 @@
-import "./Boletim.css";
+import "./Boletim.scss";
 
 import Nav from "../../components/Nav/Nav";
 import Header from "../../components/Header/Header";

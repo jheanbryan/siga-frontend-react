@@ -1,4 +1,4 @@
-import "./Tabuleiro.css";
+import "./Tabuleiro.scss";
 import Celula from "../Celula/Celula";
 import { useState } from "react";
 

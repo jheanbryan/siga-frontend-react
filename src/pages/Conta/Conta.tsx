@@ -2,7 +2,7 @@ import Nav from "../../components/Nav/Nav";
 import Header from "../../components/Header/Header";
 import imageProfile from "../../assets/profile-image.webp";
 import Footer from "../../components/Footer/Footer";
-import './Conta.css';
+import './Conta.scss';
 
 function Conta() {
   return (

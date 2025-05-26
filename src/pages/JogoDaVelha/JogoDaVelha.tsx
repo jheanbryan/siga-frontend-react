@@ -2,7 +2,7 @@ import Footer from '../../components/Footer/Footer';
 import Header from '../../components/Header/Header';
 import Nav from '../../components/Nav/Nav';
 import Tabuleiro from '../../components/Tabuleiro/Tabuleiro';
-import './JogoDaVelha.css';
+import './JogoDaVelha.scss';
 
 function JogoDaVelha() {
   return(

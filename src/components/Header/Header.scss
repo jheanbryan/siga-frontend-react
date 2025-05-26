@@ -1,7 +1,9 @@
+@use '../../styles/variables' as *;
+
 .container-header header {
-  background-color: #0A5517; 
+  background-color: $primary-color; 
   margin: 0;    
-  background-image: radial-gradient(#19882C,#025310); 
+  background-image: radial-gradient($secondary-color, $third-color); 
   color: white;    
   border-width: 1px;
   border-style: solid;

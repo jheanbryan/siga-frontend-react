@@ -1,5 +1,5 @@
 import Nav from '../Nav/Nav';
-import './MainHome.css';
+import './MainHome.scss';
 
 function MainHome() {
 
