@@ -8,6 +8,7 @@ function Nav() {
     <nav>
       <div className="perfil">
           <img src={perfilImage} alt="foto Perfil" className='perfil-img'/><br/>
+          
           <Link to="/conta">Conta</Link>&nbsp;&nbsp;|&nbsp;&nbsp;<Link to="/cadastro">Sair</Link>
       </div>
       
