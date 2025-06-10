@@ -1,7 +1,16 @@
+@use '../../styles/mixins.scss' as *;
+
 footer{
   display: flex;
   width: 100%;
   padding: 10px 5px;
   border-top: 1px solid gray;
   margin-top: auto;
+  align-items: center;
+  justify-content: center;
+  gap: 10px
+}
+
+.btn-primario{
+  @include botao-estilo(white, green);
 }

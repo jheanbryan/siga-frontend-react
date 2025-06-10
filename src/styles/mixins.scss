@@ -6,15 +6,37 @@
 }
 
 @mixin botao-tema($tema) {
-  @if $tema ==light {
+  @if $tema == light {
     background-color: white;
     color: black;
-  } @else if $tema ==dark {
+
+  } @else if $tema == dark {
     background-color: black;
     color: white;
+
+  } @else if $tema == impress {
+    background-color: black; 
+    color: white; 
+    border: 1px solid white; 
+
   } @else {
     background-color: gray;
     color: white;
+  }
+}
+
+@mixin botao-estilo($cor, $fundo) {
+  color: $cor;
+  background-color: $fundo;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: darken($fundo, 10%);
+    color: $cor;
   }
 }
 
@@ -28,4 +50,18 @@ body {
     background-color: black;
     color: white;
   }
+
+  &.tema-impress {
+    background-color: black; 
+    color: white;        
+    filter: grayscale(100%);
+    a {
+      color: lightgray;
+      &:hover {
+        color: white;
+      }
+    }
+
+  }
 }
+

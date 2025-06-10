@@ -1,3 +1,5 @@
+@use "../../styles/mixins.scss" as *;
+
 .cadastro-container #irTopo {
     width: 30px;
     height: 30px;
@@ -129,3 +131,7 @@
     }
   }
   
+
+.btn-primario {
+  @include botao-estilo(white, green);
+}

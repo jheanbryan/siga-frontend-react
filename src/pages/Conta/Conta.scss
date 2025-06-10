@@ -1,4 +1,5 @@
-.form{
+@use "../../styles/mixins.scss" as *;
+.form {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,9 +9,28 @@
   width: 100%;
 }
 
-.form .perfil{
+.form .perfil {
   display: flex;
   flex-direction: column;
   gap: 20px;
   align-items: center;
+}
+
+.btn-primario {
+  @include botao-estilo(white, green);
+}
+
+.upload-foto-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-file-hidden {
+  display: none;
+}
+
+.label-input-file {
+  @include botao-estilo(white, green);
+  text-align: center;
 }

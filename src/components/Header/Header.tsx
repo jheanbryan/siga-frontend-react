@@ -9,10 +9,10 @@ function Header(props: any) {
         <h1>Sistema Acadêmico {props.subtitle}</h1>
 
         {props.mostrarFormulario && (
-          <form id="login" action="/home" method="post">
+          <form id="login" action="/home" method="post" className='form-header'>
             <input type="email" placeholder="e-mail" name="email" />
             <input type="password" placeholder="senha" id="senha3" name="senha" />
-            <Link to="/home"><button>Logar</button></Link>
+            <Link to="/home"><button className='btn-primario'>Logar</button></Link>
           </form>
         )}
 

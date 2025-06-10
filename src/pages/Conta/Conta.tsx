@@ -23,10 +23,14 @@ function Conta() {
             />
             <br />
 
-            <p>
-              Foto:
-              <input type="file" name="foto" /*onChange={}*/ id="fileFoto" />
-            </p>
+            <div className="upload-foto-wrapper">
+              <input type="file" name="foto" id="fileFoto" className="input-file-hidden" />
+              
+              <label htmlFor="fileFoto" className="label-input-file">
+                Escolher Foto
+              </label>
+          </div>
+
             <p>
               Nome:
               <input
@@ -85,7 +89,7 @@ function Conta() {
               <input type="date" required name="dataNasc" value="2023-06-15" />
             </p>
 
-            <button type="submit">Salvar</button>
+            <button type="submit" className="btn-primario">Salvar</button>
           </div>
         </form>
       </div>

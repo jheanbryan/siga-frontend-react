@@ -44,7 +44,7 @@ function ContainerIndex() {
                 <input type="date" required name="dataNasc" />
               </p>
 
-              <button><Link to="/home">Cadastrar</Link></button>
+              <button className='btn-primario'><Link to="/home">Cadastrar</Link></button>
             </form>
           </main>
 

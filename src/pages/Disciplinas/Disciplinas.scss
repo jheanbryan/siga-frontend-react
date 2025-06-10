@@ -1,3 +1,4 @@
+@use '../../styles/mixins.scss' as *;
 
 .dicipline-page-body{
   display: flex;
@@ -26,4 +27,8 @@
 
 .table-dicipline img {
   max-width: 26px;
+}
+
+.btn-primario{
+@include botao-estilo(white, green);
 }

@@ -1,15 +1,21 @@
-@use '../../styles/variables' as *;
+@use "../../styles/mixins.scss" as *;
+@use "../../styles/variables.scss" as *;
 
 .container-header header {
-  background-color: $primary-color; 
-  margin: 0;    
-  background-image: radial-gradient($secondary-color, $third-color); 
-  color: white;    
+  background-color: $primary-color;
+  margin: 0;
+  background-image: radial-gradient($secondary-color, $third-color);
+  color: white;
   border-width: 1px;
   border-style: solid;
   display: flex;
   justify-content: space-between;
   padding: 20px 10px;
+}
+.form-header{
+  display: flex;
+  gap: 5px;
+  align-items: center;
 }
 
 .container-header input,
@@ -25,4 +31,8 @@
   color: white;
   font-weight: bold;
   cursor: pointer;
+}
+
+.btn-primario {
+  @include botao-estilo(white, green);
 }

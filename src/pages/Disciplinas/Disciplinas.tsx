@@ -35,7 +35,7 @@ function Discipline() {
             <td>PROEJA-Informática para Internet</td>
             <td>Aurelio Junior</td>
             <td className='center'>
-              <button>Matricular-se</button>
+              <button className='btn-primario'>Matricular-se</button>
               <a href="excluirDisciplina.php?id_disciplina=11">
                 <img src={iconTrash} alt="" />
               </a>

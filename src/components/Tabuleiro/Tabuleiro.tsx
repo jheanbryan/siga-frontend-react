@@ -171,7 +171,7 @@ export default function Tabuleiro() {
       </div>
 
       {!jogoIniciado ? (
-        <button onClick={iniciarJogo}>Jogar</button>
+        <button onClick={iniciarJogo} className="btn-primario">Jogar</button>
       ) : (
         <button onClick={resetarJogo}>Resetar</button>
       )}
