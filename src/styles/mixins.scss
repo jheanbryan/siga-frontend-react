@@ -1,43 +1,21 @@
-@use '../../styles/mixin' as *;
-
 @mixin flex-center {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: stretch;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
 }
 
 @mixin botao-tema($tema) {
-    @if $tema ==light {
-        background-color: white;
-        color: black;
-    }
-
-    @else if $tema ==dark {
-        background-color: black;
-        color: white;
-    }
-
-    @else {
-        background-color: gray;
-        color: white;
-    }
-}
-
-//  
-.btn-primario {
-    @include botao-estilo(white, green);
-}
-
-.btn-error {
-    @include botao-estilo(white, red);
-}
-
-@mixin flex-center {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: stretch;
+  @if $tema ==light {
+    background-color: white;
+    color: black;
+  } @else if $tema ==dark {
+    background-color: black;
+    color: white;
+  } @else {
+    background-color: gray;
+    color: white;
+  }
 }
 
 body {
@@ -48,19 +26,6 @@ body {
 
   &.tema-dark {
     background-color: black;
-    color: white;
-  }
-}
-
-@mixin botao-tema($tema) {
-  @if $tema == light {
-    background-color: white;
-    color: black;
-  } @else if $tema == dark {
-    background-color: black;
-    color: white;
-  } @else {
-    background-color: gray;
     color: white;
   }
 }
